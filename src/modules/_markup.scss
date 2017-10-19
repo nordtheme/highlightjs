@@ -1,0 +1,29 @@
+.hljs-bullet {
+  color: $nord9;
+}
+
+.hljs-code {
+  color: $nord7;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-formula {
+  color: $nord7;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.hljs-quote {
+  color: $nord3;
+}

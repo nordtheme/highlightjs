@@ -1,0 +1,29 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Nord highlight.js                                   +
+project    nord-highlightjs                                    +
+version                                                        +
+repository https://github.com/arcticicestudio/nord-highlightjs +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2017                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[References]
+Nord
+  https://github.com/arcticicestudio/nord
+highlight.js
+  http://highlightjs.readthedocs.io/en/latest/style-guide.html
+  http://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
+*/
+
+@import "../node_modules/nord/src/sass/nord";
+
+@import "modules/base";
+@import "modules/css";
+@import "modules/diff";
+@import "modules/general";
+@import "modules/markup";
+@import "modules/meta";
+@import "modules/_tags_attributes_configs";
+@import "modules/templates";
