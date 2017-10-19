@@ -1,0 +1,28 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Travis CI Build Configuration                       +
+# project    nord-highlightjs                                    +
+# repository https://github.com/arcticicestudio/nord-highlightjs +
+# author     Arctic Ice Studio                                   +
+# email      development@arcticicestudio.com                     +
+# copyright  Copyright (C) 2017                                  +
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# [References]
+# Travis CI Documentation
+#   https://docs.travis-ci.com/user/languages/javascript-with-nodejs
+language: node_js
+dist: trusty
+sudo: false
+node_js:
+  - "6"
+  - "8"
+os:
+  - linux
+  - osx
+before_install:
+  - rm -rf ./node_modules
+before_script:
+  - npm install -g gulp-cli
+  - npm install gulp
+  - npm install
+script: gulp --harmony lint
