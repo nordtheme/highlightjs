@@ -11,6 +11,28 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 
 ---
 
+## Getting started
+
+### Installation
+
+If your're using Git you can clone the repository to install the latest version:
+
+```sh
+git clone https://github.com/arcticicestudio/nord-highlightjs
+```
+
+Otherwise download [the latest stable version][nord-latest-zip] or [`develop` branch][nord-develop-zip] as ZIP archive.
+
+### Usage
+
+Make sure to read the official documentation on [how to use highlight.js][hljs-docs-usage].
+
+Copy the [`nord.css`][nord-dist-css] file to your desired directory and include the theme as stylesheet:
+
+```html
+<link rel="stylesheet" href="nord.css">
+```
+
 ### Contribution
 
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-highlightjs/issues).
@@ -24,4 +46,4 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 [hljs-docs-usage]: https://highlightjs.org/usage
 [nord-develop-zip]: https://github.com/arcticicestudio/nord-highlightjs/archive/develop.zip
 [nord-dist-css]: https://github.com/arcticicestudio/nord-highlightjs/blob/develop/dist/nord.css
-[nord-latest-zip]: https://github.com/arcticicestudio/nord-highlightjs/archive/v0.o.0.zip
+[nord-latest-zip]: https://github.com/arcticicestudio/nord-highlightjs/archive/v0.0.0.zip

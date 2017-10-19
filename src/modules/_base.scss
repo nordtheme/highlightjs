@@ -1,0 +1,11 @@
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: $nord0;
+}
+
+.hljs,
+.hljs-subst {
+  color: $nord4;
+}
