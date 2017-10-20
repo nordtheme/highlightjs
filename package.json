@@ -1,7 +1,7 @@
 {
   "name": "nord-highlightjs",
   "title": "Nord highlight.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An arctic, north-bluish clean and elegant highlight.js theme.",
   "author": {
     "name": "Arctic Ice Studio",
@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord-highlightjs/issues"
   },
+  "license": "(Apache-2.0 AND CC-BY-SA-4.0)",
   "keywords": [
     "nord",
     "arctic",
@@ -26,7 +27,10 @@
     "highlight.js",
     "theme"
   ],
-  "license": "(Apache-2.0 AND CC-BY-SA-4.0)",
+  "main": "./dist/nord.css",
+  "scripts": {
+    "prepublish": "gulp clean && gulp compile"
+  },
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-preset-env": "1.6.0",

@@ -1,0 +1,42 @@
+.hljs-built_in,
+.hljs-type {
+  color: $nord7;
+}
+
+.hljs-class {
+  color: $nord7;
+}
+
+.hljs-function {
+  color: $nord8;
+
+  > .hljs-title {
+    color: $nord8;
+  }
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol {
+  color: $nord9;
+}
+
+.hljs-number {
+  color: $nord15;
+}
+
+.hljs-regexp {
+  color: $nord13;
+}
+
+.hljs-string {
+  color: $nord14;
+}
+
+.hljs-title {
+  color: $nord7;
+}
+
+.hljs-params {
+  color: $nord4;
+}

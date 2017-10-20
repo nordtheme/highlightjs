@@ -1,0 +1,12 @@
+assets/**
+src/**
+.circleci/**
+.github/**
+.babelrc
+.editorconfig
+.gitignore
+.npmrc
+.stylelintrc.js
+.travis.yml
+gulpfile.babel.js
+package-lock.json
