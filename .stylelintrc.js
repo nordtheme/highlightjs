@@ -1,13 +1,11 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      stylelint Configuration                             +
-project    nord-highlightjs                                    +
-repository https://github.com/arcticicestudio/nord-highlightjs +
-author     Arctic Ice Studio                                   +
-email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2017                                  +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*/
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ */
 
 /**
 * Configuration for stylelint.
