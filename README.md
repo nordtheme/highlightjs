@@ -55,7 +55,7 @@ Copy the [`nord.css`][nord-dist-css] file to your desired directory and include 
 
 <p align="center"><strong>Java</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-highlightjs/develop/assets/scrot-lang-java.png"/></p>
 
-<p align="center"><strong>JOSN</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-highlightjs/develop/assets/scrot-lang-json.png"/></p>
+<p align="center"><strong>JSON</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-highlightjs/develop/assets/scrot-lang-json.png"/></p>
 
 <p align="center"><strong>PHP</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-highlightjs/develop/assets/scrot-lang-php.png"/></p>
 
