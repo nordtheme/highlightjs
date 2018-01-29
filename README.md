@@ -17,7 +17,7 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 
 ### Installation
 
-If your're using Git you can clone the repository to install the latest version:
+If you're using Git you can clone the repository to install the latest version:
 
 ```sh
 git clone https://github.com/arcticicestudio/nord-highlightjs
@@ -55,7 +55,7 @@ Copy the [`nord.css`][nord-dist-css] file to your desired directory and include 
 
 <p align="center"><strong>Java</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-highlightjs/develop/assets/scrot-lang-java.png"/></p>
 
-<p align="center"><strong>JOSN</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-highlightjs/develop/assets/scrot-lang-json.png"/></p>
+<p align="center"><strong>JSON</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-highlightjs/develop/assets/scrot-lang-json.png"/></p>
 
 <p align="center"><strong>PHP</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-highlightjs/develop/assets/scrot-lang-php.png"/></p>
 
