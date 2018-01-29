@@ -17,7 +17,7 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 
 ### Installation
 
-If your're using Git you can clone the repository to install the latest version:
+If you're using Git you can clone the repository to install the latest version:
 
 ```sh
 git clone https://github.com/arcticicestudio/nord-highlightjs
