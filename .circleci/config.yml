@@ -1,14 +1,11 @@
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      Circle CI Build Configuration                       +
-# project    nord-highlightjs                                    +
-# repository https://github.com/arcticicestudio/nord-highlightjs +
-# author     Arctic Ice Studio                                   +
-# email      development@arcticicestudio.com                     +
-# copyright  Copyright (C) 2017                                  +
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (C) 2017-present Sven Greb <development@svengreb.de>
 #
-# [References]
-# Circle CI
+# Project:    Nord highlight.js
+# Repository: https://github.com/arcticicestudio/nord-highlightjs
+# License:    MIT
+#
+# References:
 #   https://circleci.com/docs
 version: 2
 jobs:
