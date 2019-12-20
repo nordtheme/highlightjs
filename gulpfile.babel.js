@@ -1,13 +1,11 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Project Gulp File                                   +
-project    nord-highlightjs                                    +
-repository https://github.com/arcticicestudio/nord-highlightjs +
-author     Arctic Ice Studio                                   +
-email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2017                                  +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*/
+ * Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2017-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ */
 
 const gulp = require("gulp-help")(require("gulp"));
 import browserSync from "browser-sync";
@@ -81,7 +79,8 @@ gulp.task("compile", "Runs all compile tasks", ["lint", "compile-scss"]);
  * @since 0.1.0
  */
 gulp.task("compile-scss", false, () => {
-  return gulp.src(config.src.sass)
+  return gulp
+    .src(config.src.sass)
     .pipe(plumber())
     .pipe(sass(config.sass).on("error", sass.logError))
     .pipe(gulp.dest(config.dist.baseDir));
@@ -102,18 +101,17 @@ gulp.task("default", ["help"]);
 gulp.task("lint", "Runs all lint tasks", ["lint-scss"]);
 
 /**
-* Lints all Sass (SCSS) sources.
-*
-* @since 0.1.0
-*/
+ * Lints all Sass (SCSS) sources.
+ *
+ * @since 0.1.0
+ */
 gulp.task("lint-scss", false, () => {
-  return gulp.src(config.src.sass)
-    .pipe(stylelint({
+  return gulp.src(config.src.sass).pipe(
+    stylelint({
       failAfterError: true,
-      reporters: [
-        {formatter: "verbose", console: true}
-      ]
-    }));
+      reporters: [{ formatter: "verbose", console: true }]
+    })
+  );
 });
 
 /**
