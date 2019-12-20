@@ -1,3 +1,10 @@
+# Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (C) 2017-present Sven Greb <development@svengreb.de>
+#
+# Project:    Nord highlight.js
+# Repository: https://github.com/arcticicestudio/nord-highlightjs
+# License:    MIT
+
 assets/**
 src/**
 .circleci/**
