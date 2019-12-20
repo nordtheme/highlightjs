@@ -38,7 +38,7 @@ To use Nord highlight.js in projects without Node.js, the CSS file can be used t
 
 ```html
 <!-- Replace the version with any available release. -->
-<link href="https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css" rel="stylesheet" type="text/css" />
+<link href="https://unpkg.com/nord-highlightjs@0.2.0/dist/nord.css" rel="stylesheet" type="text/css" />
 ```
 
 #### Usage
@@ -49,7 +49,7 @@ To use Nord highlight.js include the CSS file as stylesheet depending on the ins
 <!-- When installed via npm/yarn for Node.js based projects -->
 <link href="node_modules/nord-highlightjs/dist/nord.css" rel="stylesheet" type="text/css" />
 <!-- When using CDN service like UNPKG -->
-<link href="https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css" rel="stylesheet" type="text/css" />
+<link href="https://unpkg.com/nord-highlightjs@0.2.0/dist/nord.css" rel="stylesheet" type="text/css" />
 ```
 
 ## Features
