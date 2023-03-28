@@ -1,9 +1,15 @@
+// Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+// This source code is licensed under the MIT license found in the license file.
+
+@use "../../node_modules/nord/src/sass/nord" as nord;
+@use "colors" as colors;
+
 .hljs-bullet {
-  color: $nord9;
+  color: nord.$nord9;
 }
 
 .hljs-code {
-  color: $nord7;
+  color: nord.$nord7;
 }
 
 .hljs-emphasis {
@@ -11,7 +17,7 @@
 }
 
 .hljs-formula {
-  color: $nord7;
+  color: nord.$nord7;
 }
 
 .hljs-strong {
@@ -25,5 +31,5 @@
 }
 
 .hljs-quote {
-  color: $nord3-brightened;
+  color: colors.$nord3-brightened;
 }
