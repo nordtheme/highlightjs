@@ -1,16 +1,22 @@
+// Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+// This source code is licensed under the MIT license found in the license file.
+
+@use "../../node_modules/nord/src/sass/nord" as nord;
+@use "colors" as colors;
+
 .hljs-comment {
-  color: $nord3-brightened;
+  color: colors.$nord3-brightened;
 }
 
 .hljs-doctag {
-  color: $nord7;
+  color: nord.$nord7;
 }
 
 .hljs-meta,
 .hljs-meta-keyword {
-  color: $nord10;
+  color: nord.$nord10;
 }
 
 .hljs-meta-string {
-  color: $nord14;
+  color: nord.$nord14;
 }

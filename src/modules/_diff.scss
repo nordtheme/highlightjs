@@ -1,7 +1,13 @@
+// Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+// This source code is licensed under the MIT license found in the license file.
+
+@use "sass:color";
+@use "../../node_modules/nord/src/sass/nord" as nord;
+
 .hljs-addition {
-  background-color: transparentize($nord14, 0.5);
+  background-color: color.adjust(nord.$nord14, $alpha: -0.5);
 }
 
 .hljs-deletion {
-  background-color: transparentize($nord11, 0.5);
+  background-color: color.adjust(nord.$nord11, $alpha: -0.5);
 }

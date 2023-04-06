@@ -1,27 +1,32 @@
+// Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+// This source code is licensed under the MIT license found in the license file.
+
+@use "../../node_modules/nord/src/sass/nord" as nord;
+
 .hljs-attr {
-  color: $nord7;
+  color: nord.$nord7;
 }
 
 .hljs-attribute {
-  color: $nord4;
+  color: nord.$nord4;
 }
 
 .hljs-builtin-name {
-  color: $nord9;
+  color: nord.$nord9;
 }
 
 .hljs-name {
-  color: $nord9;
+  color: nord.$nord9;
 }
 
 .hljs-section {
-  color: $nord8;
+  color: nord.$nord8;
 }
 
 .hljs-tag {
-  color: $nord9;
+  color: nord.$nord9;
 }
 
 .hljs-variable {
-  color: $nord4;
+  color: nord.$nord4;
 }

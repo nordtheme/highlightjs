@@ -1,51 +1,48 @@
 /*
- * Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2017-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord highlight.js
- * Repository: https://github.com/arcticicestudio/nord-highlightjs
- * License:    MIT
- * References:
- *   http://highlightjs.readthedocs.io/en/latest/style-guide.html
- *   http://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-@import "../node_modules/nord/src/sass/nord";
+/*
+ * References:
+ *   1. https://highlightjs.readthedocs.io/en/latest/theme-guide.html
+ *   2. https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
+ *   3. https://github.com/sass/sass/blob/main/accepted/module-system.md#built-in-modules-1
+ */
 
-@import "modules/base";
-@import "modules/colors";
-@import "modules/css";
-@import "modules/diff";
-@import "modules/general";
-@import "modules/markup";
-@import "modules/meta";
-@import "modules/_tags_attributes_configs";
-@import "modules/templates";
+@use "modules/base";
+@use "modules/css" as baseCSS;
+@use "modules/diff" as baseDiff;
+@use "modules/general";
+@use "modules/markup";
+@use "modules/meta";
+@use "modules/_tags_attributes_configs";
+@use "modules/templates";
 
-@import "languages/abnf";
-@import "languages/apache";
-@import "languages/arduino";
-@import "languages/aspectj";
-@import "languages/bnf";
-@import "languages/clojure";
-@import "languages/coq";
-@import "languages/cpp";
-@import "languages/css";
-@import "languages/diff";
-@import "languages/ebnf";
-@import "languages/glsl";
-@import "languages/groovy";
-@import "languages/haxe";
-@import "languages/java";
-@import "languages/ldif";
-@import "languages/lisp";
-@import "languages/lua";
-@import "languages/moonscript";
-@import "languages/nginx";
-@import "languages/pf";
-@import "languages/processing";
-@import "languages/scss";
-@import "languages/stylus";
-@import "languages/swift";
-@import "languages/vim";
-@import "languages/yaml";
+@use "languages/abnf";
+@use "languages/apache";
+@use "languages/arduino";
+@use "languages/aspectj";
+@use "languages/bnf";
+@use "languages/clojure";
+@use "languages/coq";
+@use "languages/cpp";
+@use "languages/css";
+@use "languages/diff";
+@use "languages/ebnf";
+@use "languages/glsl";
+@use "languages/groovy";
+@use "languages/haxe";
+@use "languages/java";
+@use "languages/ldif";
+@use "languages/lisp";
+@use "languages/lua";
+@use "languages/moonscript";
+@use "languages/nginx";
+@use "languages/pf";
+@use "languages/processing";
+@use "languages/scss";
+@use "languages/stylus";
+@use "languages/swift";
+@use "languages/vim";
+@use "languages/yaml";

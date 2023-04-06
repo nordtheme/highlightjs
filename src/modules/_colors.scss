@@ -1,1 +1,7 @@
-$nord3-brightened: lighten($nord3, 10%);
+// Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+// This source code is licensed under the MIT license found in the license file.
+
+@use "sass:color";
+@use "../../node_modules/nord/src/sass/nord" as nord;
+
+$nord3-brightened: color.adjust(nord.$nord3, $lightness: 10%);
